@@ -1,0 +1,6 @@
+{
+  "name": "Africa Click AI",
+  "description": "Plateforme moderne de vente et lecture d'eBooks en Afrique. Catalogue complet, paiement WhatsApp, envoi automatique et lecteur intégré.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

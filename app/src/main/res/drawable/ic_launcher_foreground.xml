@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="0"
+        android:translateY="0">
+
+        <!-- Outer Glowing Soft White Circle Base for High Contrast -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 54,20 A 34,34 0 1 0 54,88 A 34,34 0 1 0 54,20 Z"
+            android:alpha="0.15"/>
+
+        <!-- Digital Tablet / eBook Frame (Pure White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 32,28 C 30,28 28,30 28,32 L 28,76 C 28,78 30,80 32,80 L 76,80 C 78,80 80,78 80,76 L 80,32 C 80,30 78,28 76,28 Z"/>
+
+        <!-- Inner Screen Area (Vibrant Red) -->
+        <path
+            android:fillColor="#D32F2F"
+            android:pathData="M 31,31 L 77,31 L 77,75 L 31,75 Z"/>
+
+        <!-- Open eBook Base Pages (Left Wing - White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 35,40 C 43,38 51,41 53,43 L 53,70 C 51,68 43,65 35,67 Z"/>
+
+        <!-- Open eBook Base Pages (Right Wing - White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 73,40 C 65,38 57,41 55,43 L 55,70 C 57,68 65,65 73,67 Z"/>
+
+        <!-- Spine Divider (Vibrant Crimson Red) -->
+        <path
+            android:fillColor="#B71C1C"
+            android:pathData="M 53,42 L 55,42 L 55,71 L 53,71 Z"/>
+
+        <!-- Page Text Lines on Left Page (Red) -->
+        <path
+            android:pathData="M 39,46 H 49 M 38,51 H 49 M 39,56 H 47 M 40,61 H 48"
+            android:strokeWidth="1.5"
+            android:strokeColor="#D32F2F"
+            android:strokeLineCap="round"/>
+
+        <!-- Page Text Lines on Right Page (Red) -->
+        <path
+            android:pathData="M 59,46 H 69 M 59,51 H 70 M 61,56 H 69 M 59,61 H 67"
+            android:strokeWidth="1.5"
+            android:strokeColor="#D32F2F"
+            android:strokeLineCap="round"/>
+
+        <!-- Crimson Red Bookmark Hanging Ribbons -->
+        <path
+            android:fillColor="#FF1744"
+            android:pathData="M 64,31 L 69,31 L 69,45 L 66.5,42.5 L 64,45 Z"/>
+
+        <!-- Top Star Sparkle (White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 54,23 L 55.5,26.5 L 59,28 L 55.5,29.5 L 54,33 L 52.5,29.5 L 49,28 L 52.5,26.5 Z"/>
+
+    </group>
+</vector>
